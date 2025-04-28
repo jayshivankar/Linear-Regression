@@ -41,15 +41,16 @@ python model.py
 
 
 📈 Model Workflow
-Load the dataset
+1.Load the dataset
 
-Preprocess the data (handle categorical features, missing values if any)
+2.Preprocess the data (handle categorical features, missing values if any)
 
-Split the dataset into training and testing sets
+3.Split the dataset into training and testing sets
 
-Train the Linear Regression model
+4.Train the Linear Regression model
 
-Evaluate the model using metrics like R² Score and Mean Squared Error
+5.Evaluate the model using metrics like R² Score and Mean Squared Error
+
 
 📊 Example Outputs
 R² Score (Train Set): 0.87
@@ -57,6 +58,7 @@ R² Score (Train Set): 0.87
 R² Score (Test Set): 0.84
 
 (Example scores — your results may vary.)
+
 
 🧩 Technologies Used
 Python 3.10+
@@ -69,7 +71,10 @@ scikit-learn
 
 matplotlib (for visualization)
 
-📝 Requirements
+
+📝 Requirements:
+
+
 Create a requirements.txt file with the following content:
 pandas
 numpy
